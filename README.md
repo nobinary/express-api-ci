@@ -1,6 +1,1 @@
-gem 'coveralls', require: false
-
-require 'coveralls'
-Coveralls.wear!
-
-test
+[![Coverage Status](https://coveralls.io/repos/github/nobinary/express-api-ci/badge.svg?branch=master)](https://coveralls.io/github/nobinary/express-api-ci?branch=master)
