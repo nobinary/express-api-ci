@@ -15,6 +15,4 @@ deploy:
   app: express-api-ci
   on:
     repo: nobinary/express-api-ci
-  run:
-    - "npx sequelize-cli db:migrate"
-    - "npx sequelize-cli db:seed:all"
+
