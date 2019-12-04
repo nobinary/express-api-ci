@@ -10,7 +10,7 @@
     "start": "node server.js",
     "dev": "nodemon server.js",
     "db:reset": "npx sequelize-cli db:drop && npx sequelize-cli db:create && npx sequelize-cli db:migrate && npx sequelize-cli db:seed:all",
-    "coverage": "npm run db:create:test && npm run pretest && jest --coverage && cat ./coverage/lcov.info | coveralls"
+    "coverage": "npm run db:create:test && npm run pretest && jest --coverage --coverageReporters=text-lcov |   coveralls"
   },
   "jest": {
     "testEnvironment": "node",
